@@ -11,7 +11,19 @@ Saída: Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaç
 em branco antes e depois da igualdade seguido pelo valor correspondente à soma
 de A e B.
 """
+#include <stdio.h>
 
+int main() {
+    int A, B, SOMA;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    SOMA = A + B;
+
+    printf("SOMA = %d\n", SOMA);
+
+    return
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1003
 
 # Escreva sua solução abaixo
