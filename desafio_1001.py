@@ -8,7 +8,20 @@ Não apresente mensagem alguma além daquilo que está sendo especificado e
 não esqueça de imprimir o fim de linha após o resultado, caso contrário,
 você receberá "Presentation Error".
 """
+#include <stdio.h>
 
+int main() {
+    int A, B, X;
+
+    scanf("%d", &A);
+    scanf("%d", &B);
+
+    X = A + B;
+
+    printf("X = %d\n", X);
+
+    return 0;
+}
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1001
 
 # Escreva sua solução abaixo
