@@ -14,7 +14,20 @@ Saída: Apresentar a mensagem "A=" seguido pelo valor da variável area, conform
 exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão
 (double).
 """
+#include <stdio.h>
 
+int main() {
+    double raio, area;
+    double pi = 3.14159;
+
+    scanf("%lf", &raio);
+
+    area = pi * raio * raio;
+
+    printf("A=%.4lf\n", area);
+
+    return 0;
+}
 # Link do problema: https://judge.beecrowd.com/pt/problems/view/1002
 
 # Escreva sua solução abaixo
